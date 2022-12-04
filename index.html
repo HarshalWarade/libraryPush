@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PRMCEAM Library</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar sticky-top navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">PRMCEAM Library</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Regarding Library
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#scrollhere" class="dropdown-item" id="clickvam">Vision and Mission</a></li>
+                            <li><a href="#scrollhere7" class="dropdown-item" id="clicklibcom">Library Committee</a></li>
+                            <li><a href="#scrollhere12" class="dropdown-item" id="clicklibst">Staff</a></li>
+                            <li><a href="#scrollhere2" class="dropdown-item" id="clicklibruare">Rules and
+                                    Regulations</a></li>
+                            <li><a href="#scrollhere9" class="dropdown-item" id="clicklibtim">Library Timings</a></li>
+                            <li><a href="#scrollhere100" class="dropdown-item" id="clickborrowingPolicies">Borrowing
+                                    Policies</a></li>
+                            <li><a href="#scrollhere3" class="dropdown-item" id="clicklibser">Library Services</a></li>
+                            <li><a href="#scrollhere4" class="dropdown-item" id="clicklibfac">Library Facilities</a>
+                            </li>
+                            <li><a href="#scrollhere6" class="dropdown-item" id="clicklibnews">News Papers, Journals &
+                                    Magazines</a></li>
+                            <li><a href="#scrollhere8" class="dropdown-item" id="clicklibprre">Project Reports (PG)</a>
+                            </li>
+                            <li><a href="#scrollhere11" class="dropdown-item" id="clicklibcol">Collections</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1-yQ02nMX6GOYrwCETVfcv28uoM33wsRs"
+                                    class="dropdown-item">Journel
+                                    Content</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Events
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#scrollhere" class="dropdown-item" id="clickvam">SubItem1</a></li>
+                            <li><a href="#scrollhere7" class="dropdown-item" id="clicklibcom">SubItem2</a></li>
+                            <li><a href="#scrollhere12" class="dropdown-item" id="clicklibst">SubItem3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Collections
+                        </a>
+                        <ul class="dropdown-menu">
+
+                            <li><a href="#scrollhere" class="dropdown-item" id="clickvam">Question Papers (NEW)</a></li>
+                            <li><a href="#scrollhere7" class="dropdown-item" id="clicklibcom">Books</a></li>
+                            <li><a href="#scrollhere12" class="dropdown-item" id="clicklibst">Journels</a></li>
+                            <li><a href="#scrollhere12" class="dropdown-item" id="clicklibst">Magazines</a></li>
+                            <li><a href="#scrollhere12" class="dropdown-item" id="clicklibst">Newspapers</a></li>
+                            <li><a href="#scrollhere12" class="dropdown-item" id="clicklibst">Project Reports (Sub)</a>
+                            </li>
+                            <li><a href="#scrollhere12" class="dropdown-item" id="clicklibst">CD / DVDS</a></li>
+                            <li><a href="#scrollhere12" class="dropdown-item" id="clicklibst">NPTEL</a></li>
+                            <li><a href="#scrollhere12" class="dropdown-item" id="clicklibst">Other1</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="blob" style="position: absolute; width: 70.3%; z-index: -1; opacity: 0.2;">
+        <svg viewBox="0 0 800 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+            <g transform="translate(-256, 34)">
+                <defs>
+                    <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" style="stop-color: #00bfa6;"></stop>
+                        <stop offset="100%" style="stop-color: #ffffff;"></stop>
+                    </linearGradient>
+                </defs>
+                <path class="blob"
+                    d="M392,343.5Q358,437,259.5,421Q161,405,89.5,327.5Q18,250,96,184.5Q174,119,258,105Q342,91,384,170.5Q426,250,392,343.5Z"
+                    fill="url(#gradient)"></path>
+            </g>
+        </svg>
+    </div>
+    <div class="blob" style="position: absolute; width: 73.3%; z-index: -98; opacity: 0.2; left: 17%; top: -10%;">
+        <svg viewBox="0 0 800 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+            <g transform="translate(375, 28)">
+                <defs>
+                    <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" style="stop-color: #00bfa6;"></stop>
+                        <stop offset="100%" style="stop-color: #ffffff;"></stop>
+                    </linearGradient>
+                </defs>
+                <path class="blob"
+                    d="M392,343.5Q358,437,259.5,421Q161,405,89.5,327.5Q18,250,96,184.5Q174,119,258,105Q342,91,384,170.5Q426,250,392,343.5Z"
+                    fill="url(#gradient)"></path>
+            </g>
+        </svg>
+    </div>
+    <div class="mainClass" id="father">
+        <div class="info common">
+            <h1 id="mainH1">Welcome to <span class="change" id="h1text">PRMCEAM Library</span></h1>
+            <a href="#" id="gototop"><i class="fa-solid fa-arrow-up"></i></a>
+            <p id="grabtext">Central library of any organization is seat of learning endeavor in any institution and so
+                is ours.
+                Central Library believes in “Student first” philosophy and gives priority to serve students first.
+                Keeping pace with growing resources in the world, we strife hard to achieve expectation os users and
+                make them technological sound by making available global resources all at one place.</p>
+            <div>
+                <a href="#" id="openModal">Learn More</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </div>
+        <div class="containerHoldingDo">
+            <a href="#" class="arrangeInners">
+                <ion-icon name="refresh-outline"></ion-icon>
+                Updates
+            </a>
+            <a href="#" class="arrangeInners">
+                <ion-icon name="copy-outline"></ion-icon>
+                Question Papers
+            </a>
+            <a href="#" class="arrangeInners">
+                <ion-icon name="paper-plane-outline"></ion-icon>
+                Blogs
+            </a>
+            <a href="#" class="arrangeInners">
+                <ion-icon name="bookmarks-outline"></ion-icon>
+                NPTEL
+            </a>
+            <a href="#" class="arrangeInners">
+                <ion-icon name="disc-outline"></ion-icon>
+                CDs / DVDs
+            </a>
+            <!-- <a href="#" class="arrangeInners">
+                <ion-icon name="refresh-outline"></ion-icon>
+                Updates
+            </a> -->
+        </div>
+    </div>
+
+    <div class="majorLinks">
+        <div class="cardhehe">
+            <div class="img">
+                <a href="https://vidyamitra.inflibnet.ac.in/"><img
+                        src="https://prmceam.ac.in/wp-content/uploads/2015/09/Vidya-Mitra-Logo-1.png" alt=""></a>
+                Vidya Mitra
+            </div>
+        </div>
+        <div class="cardhehe">
+            <div class="img">
+                <a href="http://164.100.247.30/"><img src="https://prmceam.ac.in/wp-content/uploads/2015/09/logo.gif"
+                        alt=""></a>
+                Delnet
+            </div>
+        </div>
+        <div class="cardhehe">
+            <div class="img height">
+                <h4>E-Journels</h4>
+                <p><b>DOAJ - <a href="https://doaj.org/">https://doaj.org/</a></b></p>
+                <p><b>NISCAIR - <a href="http://www.niscair.res.in/">http://www.niscair.res.in/</a></b></p>
+                <p><b>National Digital Library - <a href="https://ndl.iitkgp.ac.in/">https://ndl.iitkgp.ac.in/</a></b>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal" style="z-index: 999;">
+        <h2 style="margin-bottom: 10px;">About Library</h2>
+        <hr>
+        <p style="margin: 30px 0; text-align: justify;">
+            Central library of any organization is seat of learning endeavor in any institution and so is ours. Central
+            Library believes in “Student first” philosophy and gives priority to serve students first. Keeping pace with
+            growing resources in the world, we strife hard to achieve expectation os users and make them technological
+            sound by making available global resources all at one place. PRMCEAM Library is on its way to become an
+            outstanding learning resource center catering to the ever growing and uncompromising information and
+            intellectual requirements of the students and faculty.
+        </p>
+        <p style="margin: 30px 0; text-align: justify;">
+            Library provides resources to its students and faculty with an user-friendly approach. It offers a fully
+            integrated and dynamic environment for conducting academic study. Book bank facility is provided to all the
+            students in every semester. Multiple copies ensure that resources are easily available in Reference Section
+            and Stock Section as well. Besides this, it provides all the facilities which are essential as well as made
+            desirable by AICTE.
+        </p>
+        <a href="#" id="closeModal"
+            style="padding: 10px 30px; color: white; background-color: #00bfa6; border-radius: 10px;">Close</a>
+    </div>
+
+    <div class="container">
+        <h2 class="headingSection">What's happening?</h2>
+        <div id="forCards">
+            <div class="cardnormal">
+                <h3 class="cardh3">NOVEMBER 17 2022</h3>
+                <p class="smalltext">Information Technology</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nihil sunt enim quibusdam mollitia
+                    fuga distinctio dolorum iure eos provident corporis itaque officiis saepe, quos amet asperiores
+                    placeat voluptas ratione?
+                </p>
+            </div>
+            <div class="cardnormal">
+                <h3 class="cardh3">NOVEMBER 17 2022</h3>
+                <p class="smalltext">Information Technology</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, nulla aperiam, iste vitae
+                    recusandae cumque iusto illum, itaque cum laborum commodi! Expedita maxime magnam architecto
+                    cupiditate aperiam obcaecati, neque at!
+                </p>
+            </div>
+            <div class="cardnormal">
+                <h3 class="cardh3">NOVEMBER 17 2022</h3>
+                <p class="smalltext">Information Technology</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ab at! Praesentium tenetur vero
+                    nesciunt, quibusdam molestias similique quasi ab quas omnis eligendi impedit cum ipsum iure dolorum
+                    necessitatibus voluptas.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="scrollhere"></div>
+    <div class="commonDiv" id="vam" style="min-height: 100vh;">
+        <h1>Vision and Mission</h1>
+        <br>
+        <div class="split">
+            <div class="vision">
+                <h3>VISION</h3>
+                <br>
+                <ul>
+                    <li>Understand the teaching, learning and research needs of its users.</li>
+                    <li>Build collections and create tools to support teaching, learning and research.</li>
+                    <li>Developing and maintaining collections in support of the academic pursuits of the college.</li>
+                    <li>Create hospitable physical and virtual environments for study, teaching and research.</li>
+                </ul>
+            </div>
+            <div class="mission">
+                <h3>MISSION</h3>
+                <br>
+                <p>The Library’s mission is to provide comprehensive resources and services in support of the research,
+                    teaching, and learning needs of PRMCEAM.</p>
+                <ul>
+                    <li>Selecting , acquiring, organizing, preserving and providing access to library materials and
+                        resources.</li>
+                    <li>Provide high-quality services that meet expectations of a diverse user community.</li>
+                    <li>Providing the physical facilities and the technical infrastructure that enhance the learning and
+                        research environment.</li>
+                    <li>Creating a climate where staff is approachable and users receive individual attention and a
+                        positive learning experience.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="scrollhere2"></div>
+    <div class="commonDiv" id="libruare">
+        <h1>Library Rules and Regulations</h1>
+        <br>
+        <div class="split">
+            <div class="vision">
+                <h3>General Rules and Regulations</h3>
+                <br>
+                <ul>
+                    <li>Enter your name in Entry register kept at the entrance before entering the library.</li>
+                    <li>Personal belongings should be kept at property counter while entering the Library.</li>
+                    <li>All Readers are required to maintain perfect silence and discipline in the Library.</li>
+                    <li>Discussions are not permitted inside the library.</li>
+                    <li>Failure to observe the rules can lead to cancellation of the membership.</li>
+                    <li>Using Cellular phones and audio instruments with or without speaker or headphone is strictly
+                        prohibited in the library.</li>
+                    <li>Eatables are not allowed in the Library.</li>
+                    <li>While availing internet facility in the library only educational sites are allowed to be
+                        browsed.</li>
+                </ul>
+            </div>
+            <div class="mission">
+                <h3>Issue System</h3>
+                <br>
+                <ul>
+                    <li>Enter your name and Sign in the register kept at the entrance as soon as you entering library.
+                    </li>
+                    <li>Library borrower cards are not transferable. The borrower is responsible for the books
+                        borrowed on his/her card.
+                    </li>
+                    <li>Show the books and other materials which are being taken out of the library to the staff at the
+                        entrance counter.
+                    </li>
+                    <li>The librarian may recall any book from any member at any time and the member shall return
+                        the same immediately.
+                    </li>
+                    <li>Library staff can inspect any of your property when you come in or leave.</li>
+                    <li>The entry will be restricted to Identity card holders only.</li>
+                    <li>Books will be issued subject to availability.</li>
+                    <li>If the book due date falls on a holiday for the library, the next working day will be taken as
+                        the
+                        due date.
+                    </li>
+                    <li>A fine of Rs. 2/- per day will be charged after the due date due to late submission.</li>
+                    <li>The borrower will be responsible for any loss or non-return of any books issued against his/her
+                        identity card.
+                    </li>
+                    <li>Absence from the institute will not be allowed as an excuse for the delay in the return of
+                        books.
+                    </li>
+                    <li>Under special circumstances, the librarian may refuse the issue of books or recall the books
+                        already issued from any member without assigning any reason thereof.
+                    </li>
+                    <li>No discussion permitted in the library.</li>
+                    <li>No personal belongings allowed wide the library.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="forCards">
+            <div class="card">
+                <h3>Overdue Charges</h3>
+                <p>Books will be issued to the students for 08 days only. On the first page of the book Date slip is
+                    pasted and stamped mentioning the due date on which you are expected to return the book. Fine of Rs.
+                    2 /day will be charged incase book is returned after due date.
+                    <br><br><i class="fa-solid fa-receipt addedCard"></i>
+                </p>
+            </div>
+            <div class="card">
+                <h3>Book Lost</h3>
+                <p>If the books are lost, then the borrower shall replace the books of the same edition or latest
+                    edition or pay double cost of the book after getting permission from the librarian.
+                    <br><br><i class="fa-solid fa-book addedCard" style="opacity: 0.2;"></i>
+                </p>
+            </div>
+            <div class="card">
+                <h3>Care of library borrower cards</h3>
+                <p>Take special care to maintain the library borrower cards. Do not fold/ alter entries made on the
+                    cards. Members are responsible for the library borrower cards issued to them.
+                    <br><br><i class="fa-regular fa-address-card addedCard"></i>
+                </p>
+            </div>
+            <div class="card">
+                <h3>Loss of cards</h3>
+                <p>Loss of borrower’s card should be reported to the librarian in writing. New card will be issued on
+                    payment of Rs.25/- per card.
+                    <br><br><i class="fa-regular fa-address-card addedCard" style="opacity: 0.1;"></i>
+                </p>
+            </div>
+            <div class="card">
+                <h3>Validity of cards</h3>
+                <p>Library borrower cards are valid for 4 years. After completion of 4 years Borrower’s cards shall be
+                    returned to the library.
+
+                    <br><br><i class="fa-solid fa-square-check addedCard"></i>
+                </p>
+            </div>
+            <div class="card">
+                <h3>No due Certificate</h3>
+                <p>Each student will get “No dues certificate” from the library after returning all the books, DVDS/CDS/
+                    back volumes of journals if any and surrendering the borrower’s cards.
+                    <br><br><i class="fa-solid fa-stamp addedCard"></i>
+                </p>
+            </div>
+            <div class="card">
+                <h3>Care of Library Books</h3>
+                <p>Students are require to handle the Books/ Journals very carefully; marking with pencil , writing or
+                    highlighting , tearing the pages or mutilating the same in any other way will be viewed very
+                    seriously. In such case reader shall be held responsible unless these are brought to the notice of
+                    the library staff at the time of issue.
+                    <br><br><i class="fa-solid fa-book-bookmark addedCard"></i>
+                </p>
+            </div>
+            <div class="card">
+                <h3>Book Bank</h3>
+                <p>All the students of Prmceam are eligible to issue Book Bank for all semesters. After getting roll
+                    list from the Departments students would be issued Book Bank Books for whole semester. As soon as
+                    they go in next semester they have to return the previous Book Bank Books and issue next semester’s
+                    Book Bank Books. Students would be issued Book Bank Books only after filling declaration form
+                    supplied at the library.
+                    <br><br><i class="fa-solid fa-swatchbook addedCard"></i>
+                </p>
+            </div>
+            <div class="card">
+                <h3>Reference section</h3>
+                <p>This section has Encyclopedia, dictionaries, Text books, reference books etc. which are only
+                    available for reference. User can make use of these resources.
+                    <br><br><i class="fa-solid fa-people-roof addedCard"></i>
+                </p>
+            </div>
+            <div class="card">
+                <h3>Journal Section</h3>
+                <p>In this section journals, general magazines and newspapers are available. The latest issues are
+                    displayed on display rack and back issues are arranged in the storage behind the display rack. Bound
+                    volumes of periodicals are also available in the library. Students can issue back volumes of
+                    Journals/magazines for 3 days only.
+                    <br><br><i class="fa-solid fa-newspaper addedCard"></i>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="scrollhere3"></div>
+    <div class="commonDiv" id="libser">
+        <h1>Library Services</h1>
+        <br>
+        <div class="more">
+            <p><i class="fa-solid fa-check" style="color: rgb(16, 185, 16);"></i> Book circulation service</p>
+            <p><i class="fa-solid fa-check" style="color: rgb(16, 185, 16);"></i> Library Orientation to First year
+                students</p>
+            <p><i class="fa-solid fa-check" style="color: rgb(16, 185, 16);"></i> Access to current issues and back
+                volumes of periodicals</p>
+            <p><i class="fa-solid fa-check" style="color: rgb(16, 185, 16);"></i> OPAC(Online Public Access Catalogue)
+            </p>
+            <p><i class="fa-solid fa-check" style="color: rgb(16, 185, 16);"></i> Online access to e-resources</p>
+            <p><i class="fa-solid fa-check" style="color: rgb(16, 185, 16);"></i> Internet & e-mail services</p>
+            <p><i class="fa-solid fa-check" style="color: rgb(16, 185, 16);"></i> Subscription to Daily Newspapers</p>
+            <p><i class="fa-solid fa-check" style="color: rgb(16, 185, 16);"></i> Reprographic services</p>
+            <p><i class="fa-solid fa-check" style="color: rgb(16, 185, 16);"></i> Scanning facility</p>
+            <p><i class="fa-solid fa-check" style="color: rgb(16, 185, 16);"></i> SOUL SMS Service</p>
+            <p><i class="fa-solid fa-check" style="color: rgb(16, 185, 16);"></i> NPTEL Video Lectures</p>
+            <p><i class="fa-solid fa-check" style="color: rgb(16, 185, 16);"></i> User orientation</p>
+            <p><i class="fa-solid fa-check" style="color: rgb(16, 185, 16);"></i> Inter Library Loan</p>
+            <p><i class="fa-solid fa-check" style="color: rgb(16, 185, 16);"></i> Book Bank Scheme for all the students
+            </p>
+            <p><i class="fa-solid fa-check" style="color: rgb(16, 185, 16);"></i> Reference and Referral Services</p>
+            <p><i class="fa-solid fa-check" style="color: rgb(16, 185, 16);"></i> CD-ROM database service(Offline)</p>
+            <p><i class="fa-solid fa-check" style="color: rgb(16, 185, 16);"></i> E- theatre for audio/video sessions
+            </p>
+        </div>
+    </div>
+
+    <div id="scrollhere4"></div>
+    <div class="commonDiv" id="libfac">
+        <h1>Library Facilities</h1>
+        <div id="present">
+            <h3>Borrowing of Books</h3>
+            <hr style="width: 60%; margin-top: 20px;">
+            <div id="presentContent">
+                <div>
+                    <p>Undergraduate Students (B.E.) : </p>
+                    <p>2 Books for 10 days of loan Period</p>
+                </div>
+                <div>
+                    <p>Post Graduate Students (M.E.) : </p>
+                    <p>2 Books for 10 days of loan Period</p>
+                </div>
+                <div>
+                    <p>Faculty Members : </p>
+                    <p>5 Books per subject for one semester of loan period</p>
+                </div>
+                <div>
+                    <p>Head of the Departments of respective faculties : </p>
+                    <p>10 Books for one semester of loan period</p>
+                </div>
+            </div>
+            <h3>Reference Services</h3>
+            <hr style="width: 60%; margin-top: 20px;">
+            <h4 class="genMary">Documents for reference / reading room: </h4>
+            <p>Reference Collections include – Textbooks, Dictionaries, Handbooks, GATE/GRE Exam Preparation Materials,
+                Competitive exam Books etc.. Documents available in reference are restricted for borrowing.</p>
+        </div>
+    </div>
+    <div id="scrollhere5"></div>
+    <div class="commonDiv" id="libsuberes">
+        <h1>Subscribed E-Resources</h1>
+        <div>
+            <a href="pdfs/2013-20142.pdf" id="c201314">2013-14</a>
+            <a href="pdfs/2014-20152.pdf" id="c201415">2014-15</a>
+            <a href="pdfs/2015-20161.pdf" id="c201516">2015-16</a>
+            <a href="pdfs/2016-20171.pdf" id="c201617">2016-17</a>
+        </div>
+    </div>
+    <div id="scrollhere6"></div>
+    <div class="commonDiv" id="libnews">
+        <h1>News Papers, Journals & Magazines</h1>
+        <div>
+            <a href="pdfs/newspapers/2013-20141.pdf" id="c201314">2013-14</a>
+            <a href="pdfs/newspapers/2014-20151.pdf" id="c201415">2014-15</a>
+            <a href="pdfs/newspapers/2015-2016.pdf" id="c201516">2015-16</a>
+            <a href="pdfs/newspapers/2016-2017.pdf" id="c201617">2016-17</a>
+        </div>
+    </div>
+    <div id="scrollhere8"></div>
+    <div class="commonDiv" id="libprre">
+        <h1>Project Reports</h1>
+        <div>
+            <a href="pdfs/projectreports/2013-2014.pdf" id="c201314">2013-14</a>
+            <a href="pdfs/projectreports/2014-2015.pdf" id="c201415">2014-15</a>
+        </div>
+    </div>
+    <div id="scrollhere7"></div>
+    <div class="commonDiv" id="libcom">
+        <h1>Library Committee</h1>
+        <table class="styled-table" style="overflow-x: auto; overflow-y: auto;">
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Name</th>
+                    <th>Designation</th>
+                    <th>Department</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Dr. M.S. Ali</td>
+                    <td>Chairman</td>
+                    <td>Principal</td>
+                </tr>
+                <tr class="active-row">
+                    <td>2</td>
+                    <td> Dr. A. V. Kadu</td>
+                    <td> Prof. In-Charge</td>
+                    <td> First Year</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Dr. V. A. Rajgure</td>
+                    <td>Member</td>
+                    <td>CSE</td>
+                </tr>
+                <tr class="active-row">
+                    <td>4</td>
+                    <td> Mr. A. B. Ugale</td>
+                    <td>Member</td>
+                    <td>Civil</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Mr. K. S. Kalkonde</td>
+                    <td>Member</td>
+                    <td>EEE</td>
+                </tr>
+                <tr class="active-row">
+                    <td>6</td>
+                    <td>Miss. S. A. Meshram</td>
+                    <td>Member</td>
+                    <td>EXTC</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Mrs. Supriya A. Bejalwar</td>
+                    <td>Librarian/Secretary</td>
+                    <td>Library</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <div id="scrollhere9"></div>
+    <div class="commonDiv" id="libtim">
+        <h1>Library Timings</h1>
+        <div style="display: flex; padding: 0 30px;">
+            <b style="margin: 0 auto;">7.30 A.M. to 8.00 P.M. (Monday to Saturday)</b>
+        </div>
+    </div>
+    <div id="scrollhere10"></div>
+    <div class="commonDiv" id="libcade">
+        <h1>Career Development</h1>
+        <div id="forCards">
+            <div class="cardnormal">
+                <h3>IBPS</h3>
+                <p style="text-align: center;"><a href="https://www.ibpsexam.org"
+                        style="color: black; font-weight: 600;">IBPSEXAM</a></p>
+            </div>
+            <div class="cardnormal">
+                <h3>Bank PO Mock Test</h3>
+                <p style="text-align: center;"><a href="https://www.cybermocktest.com/bankpo/"
+                        style="color: black; font-weight: 600;">cybermocktest</a></p>
+            </div>
+            <div class="cardnormal">
+                <h3>Competitive Exams Online</h3>
+                <p style="text-align: center;"><a href="http://www.competitiveexamsonline.com/"
+                        style="color: black; font-weight: 600;">competitiveexamsonline</a></p>
+            </div>
+            <div class="cardnormal">
+                <h3>Employment News</h3>
+                <p style="text-align: center;"><a href="http://www.employmentnews.gov.in/"
+                        style="color: black; font-weight: 600;">employmentnews</a></p>
+            </div>
+            <div class="cardnormal">
+                <h3>Free Job Alert</h3>
+                <p style="text-align: center;"><a href="http://www.freejobalert.com/"
+                        style="color: black; font-weight: 600;">freejobalert</a></p>
+            </div>
+            <div class="cardnormal">
+                <h3>Free Online Test</h3>
+                <p style="text-align: center;"><a href="http://www.freeonlinetest.in/"
+                        style="color: black; font-weight: 600;">freeonlinetest</a></p>
+            </div>
+            <div class="cardnormal">
+                <h3>General knowledge Duniya</h3>
+                <p style="text-align: center;"><a href="http://www.gkduniya.com/"
+                        style="color: black; font-weight: 600;">gkduniya</a></p>
+            </div>
+            <div class="cardnormal">
+                <h3>GK Today</h3>
+                <p style="text-align: center;"><a href="http://www.gktoday.in/"
+                        style="color: black; font-weight: 600;">gktoday</a></p>
+            </div>
+            <div class="cardnormal">
+                <h3>IBPS Exam Guru</h3>
+                <p style="text-align: center;"><a href="http://www.ibpsexamguru.in/"
+                        style="color: black; font-weight: 600;">ibpsexamguru</a></p>
+            </div>
+            <div class="cardnormal">
+                <h3>Indeed</h3>
+                <p style="text-align: center;"><a href="https://www.indeed.co.in/"
+                        style="color: black; font-weight: 600;">indeed</a></p>
+            </div>
+            <div class="cardnormal">
+                <h3>India Bix</h3>
+                <p style="text-align: center;"><a href="http://www.indiabix.com/"
+                        style="color: black; font-weight: 600;">indiabix</a></p>
+            </div>
+            <div class="cardnormal">
+                <h3>Indian Govt Jobs</h3>
+                <p style="text-align: center;"><a href="http://www.indgovtjobs.in/"
+                        style="color: black; font-weight: 600;">indgovtjobs</a></p>
+            </div>
+            <div class="cardnormal">
+                <h3>Jagaran Josht</h3>
+                <p style="text-align: center;"><a href="http://www.jagranjosh.com/"
+                        style="color: black; font-weight: 600;">jagranjosh</a></p>
+            </div>
+            <div class="cardnormal">
+                <h3>Online Tyari</h3>
+                <p style="text-align: center;"><a href="https://onlinetyari.com/"
+                        style="color: black; font-weight: 600;">onlinetyari</a></p>
+            </div>
+            <div class="cardnormal">
+                <h3>Sarkari Naukri</h3>
+                <p style="text-align: center;"><a href="http://www.sarkarinaukricareer.in/"
+                        style="color: black; font-weight: 600;">sarkarinaukricareer</a></p>
+            </div>
+            <div class="cardnormal">
+                <h3>Staff Selection Commission</h3>
+                <p style="text-align: center;"><a href="http://ssc.nic.in/"
+                        style="color: black; font-weight: 600;">staffselectioncommission</a></p>
+            </div>
+            <div class="cardnormal">
+                <h3>Talent Sprint</h3>
+                <p style="text-align: center;"><a
+                        href="https://www.talentsprint.com/bank/notifications.dpl#_ga=1.242428482.190969"
+                        style="color: black; font-weight: 600;">talentsprint</a></p>
+            </div>
+            <div class="cardnormal">
+                <h3>UPSC</h3>
+                <p style="text-align: center;"><a href="http://www.upsc.gov.in/"
+                        style="color: black; font-weight: 600;">upsc</a></p>
+            </div>
+            <div class="cardnormal">
+                <h3>Sarkari Naukari Blog</h3>
+                <p style="text-align: center;"><a href="http://www.sarkarinaukriupdates.com/"
+                        style="color: black; font-weight: 600;">sarkarinaukriupdates</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="scrollhere11"></div>
+    <div class="commonDiv" id="libcol">
+        <h1>Library Collections</h1>
+        <div>
+            <a href="pdfs/collections/2013-2014.pdf" id="c201314">2013-14</a>
+            <a href="pdfs/collections/2014-2015.pdf" id="c201415">2014-15</a>
+            <a href="pdfs/collections/2015-2016.pdf" id="c201516">2015-16</a>
+            <a href="pdfs/collections/2016-2017.pdf" id="c201617">2016-17</a>
+        </div>
+    </div>
+
+
+    <div id="scrollhere12"></div>
+    <div class="commonDiv" id="libst">
+        <h1>Library Staff</h1>
+        <table class="styled-table" style="overflow-x: auto; overflow-y: auto; margin: 0 auto;">
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Name</th>
+                    <th>Qualification</th>
+                    <th>Designation</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Mrs. Supriya A. Bejalwar</td>
+                    <td>B.Sc, M.Lib, M.B.A., Ph. D.(Pursuing)</td>
+                    <td>Librarian</td>
+                </tr>
+                <tr class="active-row">
+                    <td>2</td>
+                    <td>Mr. Mangesh V. Lad</td>
+                    <td>B. A. , M. Lib, NET, SET</td>
+                    <td>Assistant Librarian</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Miss Mayuri J. Kadu</td>
+                    <td>B.A.</td>
+                    <td>Library Attendant</td>
+                </tr>
+                <tr class="active-row">
+                    <td>4</td>
+                    <td>Mr. Sanjay B. Ingole</td>
+                    <td>S.S.C.</td>
+                    <td>Library Attendant</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Mrs. D. D. Ghodki</td>
+                    <td>IX</td>
+                    <td>Peon</td>
+                </tr>
+                <tr class="active-row">
+                    <td>6</td>
+                    <td>Mr. Sanjay Ramteke</td>
+                    <td>XI</td>
+                    <td>Peon</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="testingSection">
+        <a href="#" class="imagePlacer"><img
+                src="https://media.springernature.com/full/springer-static/cover-hires/book/978-981-19-2836-9?as=webp"
+                alt=""></a>
+        <a href="#" class="imagePlacer"><img src="https://m.media-amazon.com/images/I/91d3aINlCnL.jpg" alt=""></a>
+        <a href="#" class="imagePlacer"><img
+                src="https://mysubs.in/wp-content/uploads/amc-indian-journal-of-civil-engineering-journal-subscription-05-Sep-2018.jpg"
+                alt=""></a>
+        <a href="#" class="imagePlacer"><img
+                src="https://www.latticescipub.com/wp-content/uploads/2021/07/IJSE-Cover.png" alt=""></a>
+        <a href="#" class="imagePlacer"><img src="https://www.ripublication.com/images/IJCEA.jpg" alt=""></a>
+        <a href="#" class="imagePlacer"><img
+                src="https://enrichedpub.in/upload/Journal%20of%20Surveying%20and%20Structural%20Engineering.jpg"
+                alt=""></a>
+        <a href="#" class="imagePlacer"><img
+                src="https://files.magzter.com/resize/magazine/1454397775/1610617216/view/1.jpg" alt=""></a>
+        <a href="#" class="imagePlacer" style="box-shadow: none;"><img
+                src="https://www.icjonline.com/static/images/book-sub.png" alt=""></a>
+        <a href="#" class="imagePlacer"><img
+                src="https://i1.rgstatic.net/publication/342355024_IndIaN_HIgHways_volume_48_Number_6_total_Pages_60/links/5ef086f7a6fdcc73be94406e/largepreview.png"
+                alt=""></a>
+        <a href="#" class="imagePlacer"><img
+                src="https://img.yumpu.com/18867233/1/500x640/highway-research-journal-volume-5-no-1-indian-roads-congress.jpg"
+                alt=""></a>
+        <a href="#" class="imagePlacer"><img src="https://www.yumpu.com/en/image/facebook/18867210.jpg" alt=""></a>
+        <a href="#" class="imagePlacer"><img
+                src="https://img.yumpu.com/18867141/1/500x640/highway-research-record-no-33-indian-roads-congress.jpg"
+                alt=""></a>
+        <hr class="specialhr">
+        <a href="#" class="imagePlacer"><img src="http://www.ripublication.com/images/aeee%20new.jpg" alt=""></a>
+        <a href="#" class="imagePlacer"><img src="https://jecei.sru.ac.ir/data/jecei/coversheet/cover_en.jpg"
+                alt=""></a>
+        <a href="#" class="imagePlacer"><img src="https://www.ripublication.com/images/ijeet%20new.jpg" alt=""></a>
+        <a href="#" class="imagePlacer"><img src="https://www.ripublication.com/images/ijeer%20new.jpg" alt=""></a>
+        <a href="#" class="imagePlacer"><img
+                src="https://matjournals.com/img/Journal%20of%20Electrical%20and%20Power%20System%20Engineering.jpg"
+                alt=""></a>
+        <a href="#" class="imagePlacer"><img src="" alt=""></a>
+
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
