@@ -125,16 +125,16 @@ clicklibfac.addEventListener('click', function(){
     libprre.style.display = 'none';
     libcol.style.display = 'none';
 });
-// clicklibsuberes.addEventListener('click', function(){
-//     libcade.style.display = 'none';
-//     libst.style.display = 'none';
-//     libsuberes.style.display = '';
-//     libcol.style.display = 'none';
-//     libnews.style.display = 'none';
-//     libcom.style.display = 'none';
-//     libprre.style.display = 'none';
-//     libtim.style.display = 'none';
-// });
+clicklibsuberes.addEventListener('click', function(){
+    libcade.style.display = 'none';
+    libst.style.display = 'none';
+    libsuberes.style.display = '';
+    libcol.style.display = 'none';
+    libnews.style.display = 'none';
+    libcom.style.display = 'none';
+    libprre.style.display = 'none';
+    libtim.style.display = 'none';
+});
 clicklibnews.addEventListener('click', function(){
     libst.style.display = 'none';
     libtim.style.display = 'none';
